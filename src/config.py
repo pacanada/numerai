@@ -20,4 +20,4 @@ class Config():
         self.model_id = os.environ.get("MODEL_ID")
         self.url_training_data = "https://numerai-public-datasets.s3-us-west-2.amazonaws.com/latest_numerai_training_data.csv.xz"
         self.url_tournament_data = "https://numerai-public-datasets.s3-us-west-2.amazonaws.com/latest_numerai_tournament_data.csv.xz"
-        self.model = LinearRegression()
+        self.model = LinearRegressionCustom()
