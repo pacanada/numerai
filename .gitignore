@@ -1,2 +1,3 @@
 numerai_datasets/*.csv
-/.vscode
+.vscode/settings.json
+.vscode/*
