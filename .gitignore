@@ -1,3 +1,4 @@
 numerai_datasets/*.csv
 .vscode/*.json
 .env
+data/*.feather
